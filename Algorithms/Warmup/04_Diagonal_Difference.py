@@ -15,7 +15,7 @@ if __name__ == "__main__":
     n = int(raw_input().strip())
     a = []
     for a_i in xrange(n):
-        a_temp = map(int,raw_input().strip().split(' '))
+        a_temp = map(int,input().strip().split(' '))
         a.append(a_temp)
     result = diagonalDifference(a)
-    print result
+    print(result)
